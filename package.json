@@ -12,7 +12,7 @@
     "webpack-cli": "^3.3.0"
   },
   "scripts": {
-    "start": "webpack --mode development --inline --hot"
+    "start": "webpack --mode development --config ./webpack.config.js --inline --hot"
   },
   "author": "",
   "license": "ISC"
