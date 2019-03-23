@@ -1,4 +1,4 @@
-const io = require('socket.io')(9090);
+const io = require('socket.io')(6000);
 
 io.on('connection', () => {
     console.log("conected")
