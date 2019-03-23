@@ -1,5 +1,5 @@
-const io = require('socket.io')(6000);
+const io = require('socket.io')(9000);
 
-io.on('connection', () => {
-    console.log("conected")
+io.on('connection', socket => {
+    socket.on('hello', hashID => console.log(hashID))
 })
